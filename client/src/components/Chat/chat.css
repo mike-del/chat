@@ -1,0 +1,43 @@
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1A1A1D;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: ghostwhite;
+  border-radius: 8px;
+  max-height: 90%;
+  max-width: 60%;
+  z-index: 200;
+
+}
+  
+  @media (max-width:1000px) {
+    .container {
+      width: 60%;
+      height: 100%;
+    }
+  }
+
+ @media(min-width:360px)  {
+    .container{
+      height: 70%;
+      width: 50%;
+    
+    }
+  }
+ 
+  @media (min-width: 480px) and (max-width: 1200px) {
+    .container {
+      width: 60%;
+      height:80%;
+    }
+  }

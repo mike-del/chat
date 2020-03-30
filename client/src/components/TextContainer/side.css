@@ -1,0 +1,38 @@
+.sidenav{
+    height: 30%;
+    background-color: rebeccapurple;
+    position: fixed;
+    height: 60%;
+    width: 98px;
+    right: 70px;
+    z-index: 100;
+}
+.sidenav:hover{
+    right: 40px;
+    cursor: pointer;
+}
+.usersIcon{
+   float:right;
+   right: 20px;
+   margin-top: 0px;
+}
+.activeItem {
+  margin-left: 4px;
+  color: aliceblue;
+  margin-top: 4px;
+  }
+.online {
+    margin-left: 5px;
+}
+
+
+@media (min-width: 1000px){
+    .sidenav{
+        height: 55%; 
+        right: 20%; 
+    }
+    .sidenav:hover{
+        right: 18%;
+    }
+
+}
